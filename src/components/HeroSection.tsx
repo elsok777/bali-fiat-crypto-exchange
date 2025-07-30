@@ -17,7 +17,6 @@ const HeroSection = () => {
           <div className="inline-flex items-center gap-2 bg-background/90 backdrop-blur-sm px-4 py-2 rounded-full mb-8 shadow-card animate-fade-in">
             <Shield className="w-4 h-4 text-primary" />
             <span className="text-sm font-medium">Licensed & Regulated</span>
-            <span className="text-xs text-muted-foreground">AHU-0074782.AH.01.02.Tahun 2024</span>
           </div>
 
           {/* Main heading */}
