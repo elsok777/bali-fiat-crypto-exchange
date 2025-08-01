@@ -1,80 +1,99 @@
 import { Button } from "@/components/ui/button";
-import { Shield, Menu, X } from "lucide-react";
+import { Shield, Menu, X, Home } from "lucide-react";
 import { useState } from "react";
 
 const Header = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
 
   return (
-    <header className="fixed top-0 left-0 right-0 z-50 bg-background/80 backdrop-blur-md border-b border-border/50">
+    <header className="fixed top-0 left-0 right-0 z-50 bg-white/90 backdrop-blur-md border-b border-gray-200/50 shadow-sm">
       <div className="container mx-auto px-6">
-        <div className="flex items-center justify-between h-16">
+        <div className="flex items-center justify-between h-20">
           {/* Logo */}
           <div className="flex items-center gap-3">
-            <div className="w-10 h-10 bg-gradient-primary rounded-lg flex items-center justify-center">
-              <Shield className="w-6 h-6 text-primary-foreground" />
+            <div className="w-12 h-12 bg-gradient-to-br from-primary to-emerald-600 rounded-xl flex items-center justify-center shadow-lg">
+              <Home className="w-7 h-7 text-white" />
             </div>
             <div>
-              <h1 className="text-lg font-bold text-foreground">BALI KAPITAL</h1>
-              <p className="text-xs text-muted-foreground">GRUP PROPERTI</p>
+              <h1 className="text-xl font-bold bg-gradient-to-r from-primary to-emerald-600 bg-clip-text text-transparent">
+                BALI KAPITAL
+              </h1>
+              <p className="text-sm text-gray-600 font-medium">GRUP PROPERTI</p>
             </div>
           </div>
 
           {/* Desktop Navigation */}
           <nav className="hidden md:flex items-center gap-8">
-            <a href="#services" className="text-foreground hover:text-primary transition-colors">
+            <a 
+              href="#services" 
+              className="text-gray-700 hover:text-primary transition-colors duration-300 font-medium relative group"
+            >
               Услуги
+              <span className="absolute bottom-0 left-0 w-0 h-0.5 bg-gradient-to-r from-primary to-emerald-600 group-hover:w-full transition-all duration-300"></span>
             </a>
-            <a href="#about" className="text-foreground hover:text-primary transition-colors">
+            <a 
+              href="#about" 
+              className="text-gray-700 hover:text-primary transition-colors duration-300 font-medium relative group"
+            >
               О компании
+              <span className="absolute bottom-0 left-0 w-0 h-0.5 bg-gradient-to-r from-primary to-emerald-600 group-hover:w-full transition-all duration-300"></span>
             </a>
-            <a href="#contact" className="text-foreground hover:text-primary transition-colors">
+            <a 
+              href="#contact" 
+              className="text-gray-700 hover:text-primary transition-colors duration-300 font-medium relative group"
+            >
               Контакты
+              <span className="absolute bottom-0 left-0 w-0 h-0.5 bg-gradient-to-r from-primary to-emerald-600 group-hover:w-full transition-all duration-300"></span>
             </a>
-            <Button variant="default" size="sm">
+            <Button 
+              className="bg-gradient-to-r from-primary to-emerald-600 hover:from-emerald-600 hover:to-primary shadow-lg hover:shadow-xl transform hover:scale-105 transition-all duration-300"
+            >
               Найти недвижимость
             </Button>
           </nav>
 
           {/* Mobile Menu Button */}
           <button
-            className="md:hidden p-2"
+            className="md:hidden p-2 rounded-lg hover:bg-gray-100 transition-colors duration-300"
             onClick={() => setIsMenuOpen(!isMenuOpen)}
           >
             {isMenuOpen ? (
-              <X className="w-6 h-6" />
+              <X className="w-6 h-6 text-gray-700" />
             ) : (
-              <Menu className="w-6 h-6" />
+              <Menu className="w-6 h-6 text-gray-700" />
             )}
           </button>
         </div>
 
         {/* Mobile Navigation */}
         {isMenuOpen && (
-          <div className="md:hidden py-4 border-t border-border/50">
+          <div className="md:hidden py-6 border-t border-gray-200/50 bg-white/95 backdrop-blur-md rounded-b-2xl shadow-lg">
             <nav className="flex flex-col gap-4">
               <a 
                 href="#services" 
-                className="text-foreground hover:text-primary transition-colors py-2"
+                className="text-gray-700 hover:text-primary transition-colors duration-300 py-3 px-4 rounded-lg hover:bg-gray-50 font-medium"
                 onClick={() => setIsMenuOpen(false)}
               >
                 Услуги
               </a>
               <a 
                 href="#about" 
-                className="text-foreground hover:text-primary transition-colors py-2"
+                className="text-gray-700 hover:text-primary transition-colors duration-300 py-3 px-4 rounded-lg hover:bg-gray-50 font-medium"
                 onClick={() => setIsMenuOpen(false)}
               >
                 О компании
               </a>
               <a 
                 href="#contact" 
-                className="text-foreground hover:text-primary transition-colors py-2"
+                className="text-gray-700 hover:text-primary transition-colors duration-300 py-3 px-4 rounded-lg hover:bg-gray-50 font-medium"
                 onClick={() => setIsMenuOpen(false)}
               >
                 Контакты
               </a>
-              <Button variant="default" size="sm" className="mt-2">
+              <Button 
+                className="mt-4 bg-gradient-to-r from-primary to-emerald-600 hover:from-emerald-600 hover:to-primary shadow-lg"
+                onClick={() => setIsMenuOpen(false)}
+              >
                 Найти недвижимость
               </Button>
             </nav>
