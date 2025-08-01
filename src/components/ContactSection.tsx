@@ -10,17 +10,17 @@ const ContactSection = () => {
           {/* Section Header */}
           <div className="text-center mb-16">
             <h2 className="text-4xl md:text-5xl font-bold text-navy mb-6">
-              Свяжитесь с нами
-            </h2>
-            <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-              Готовы помочь вам найти идеальную недвижимость на Бали. Обратитесь к нашим экспертам для персональной консультации
-            </p>
+            Contact Us
+          </h2>
+          <p className="text-xl text-gray-600 max-w-3xl mx-auto">
+            Ready to help you find the perfect property in Bali. Contact our experts for a personalized consultation
+          </p>
           </div>
 
           <div className="grid lg:grid-cols-2 gap-12">
             {/* Contact Information */}
             <div className="space-y-8">
-              <h3 className="text-3xl font-bold text-navy mb-8">Как с нами связаться</h3>
+              <h3 className="text-3xl font-bold text-navy mb-8">How to Contact Us</h3>
               
               <div className="space-y-6">
                 <div className="flex items-start gap-4 p-6 bg-white rounded-2xl shadow-lg border border-gray-100 hover:shadow-xl transition-shadow duration-300">
@@ -28,7 +28,7 @@ const ContactSection = () => {
                     <MapPin className="w-7 h-7 text-white" />
                   </div>
                   <div>
-                    <h4 className="font-semibold text-lg mb-2 text-navy">Наш офис</h4>
+                    <h4 className="font-semibold text-lg mb-2 text-navy">Our Office</h4>
                     <p className="text-gray-600 leading-relaxed">
                       KOMPLEK, PERTOKOAN NAKULA PLAZA<br />
                       JL. NAKULA NO.B8, LEGIAN<br />
@@ -39,26 +39,15 @@ const ContactSection = () => {
                 </div>
 
                 <div className="flex items-start gap-4 p-6 bg-white rounded-2xl shadow-lg border border-gray-100 hover:shadow-xl transition-shadow duration-300">
-                  <div className="w-14 h-14 bg-gradient-to-br from-accent to-amber-500 rounded-xl flex items-center justify-center flex-shrink-0">
-                    <Phone className="w-7 h-7 text-white" />
-                  </div>
-                  <div>
-                    <h4 className="font-semibold text-lg mb-2 text-navy">Телефон</h4>
-                    <p className="text-gray-600">087855597788</p>
-                    <p className="text-sm text-gray-500 mt-1">Доступен для звонков и WhatsApp</p>
-                  </div>
-                </div>
-
-                <div className="flex items-start gap-4 p-6 bg-white rounded-2xl shadow-lg border border-gray-100 hover:shadow-xl transition-shadow duration-300">
                   <div className="w-14 h-14 bg-gradient-to-br from-emerald-500 to-primary rounded-xl flex items-center justify-center flex-shrink-0">
                     <Clock className="w-7 h-7 text-white" />
                   </div>
                   <div>
-                    <h4 className="font-semibold text-lg mb-2 text-navy">Время работы</h4>
+                    <h4 className="font-semibold text-lg mb-2 text-navy">Business Hours</h4>
                     <p className="text-gray-600">
-                      Понедельник - Пятница: 9:00 - 18:00<br />
-                      Суббота: 9:00 - 16:00<br />
-                      Воскресенье: По договоренности
+                      Monday - Friday: 9:00 AM - 6:00 PM<br />
+                      Saturday: 9:00 AM - 4:00 PM<br />
+                      Sunday: By appointment
                     </p>
                   </div>
                 </div>
@@ -68,10 +57,10 @@ const ContactSection = () => {
                     <MessageCircle className="w-7 h-7 text-white" />
                   </div>
                   <div>
-                    <h4 className="font-semibold text-lg mb-2 text-navy">Онлайн консультации</h4>
+                    <h4 className="font-semibold text-lg mb-2 text-navy">Online Consultations</h4>
                     <p className="text-gray-600">
-                      Доступны видеозвонки и онлайн-встречи<br />
-                      для удаленных клиентов
+                      Video calls and online meetings available<br />
+                      for remote clients
                     </p>
                   </div>
                 </div>
@@ -80,28 +69,28 @@ const ContactSection = () => {
 
             {/* Company Information */}
             <div className="space-y-8">
-              <h3 className="text-3xl font-bold text-navy mb-8">О компании</h3>
+              <h3 className="text-3xl font-bold text-navy mb-8">About Company</h3>
               
               <Card className="shadow-xl bg-gradient-to-br from-white to-gray-50 border-0 overflow-hidden">
                 <CardHeader className="bg-gradient-to-r from-primary to-emerald-600 text-white">
                   <CardTitle className="flex items-center gap-3 text-xl">
                     <Shield className="w-6 h-6" />
-                    Лицензия и регистрация
+                    License & Registration
                   </CardTitle>
                 </CardHeader>
                 <CardContent className="p-6 space-y-4">
                   <div>
-                    <p className="text-sm text-gray-500 mb-1">Номер лицензии</p>
+                    <p className="text-sm text-gray-500 mb-1">License Number</p>
                     <p className="font-mono text-lg font-semibold text-primary">
                       AHU-0074782.AH.01.02.Tahun 2024
                     </p>
                   </div>
                   <div>
-                    <p className="text-sm text-gray-500 mb-1">Название компании</p>
+                    <p className="text-sm text-gray-500 mb-1">Company Name</p>
                     <p className="font-semibold text-navy">BALI KAPITAL GRUP PROPERTI</p>
                   </div>
                   <div>
-                    <p className="text-sm text-gray-500 mb-1">Год основания</p>
+                    <p className="text-sm text-gray-500 mb-1">Year Founded</p>
                     <p className="font-semibold text-navy">2024</p>
                   </div>
                 </CardContent>
@@ -111,16 +100,16 @@ const ContactSection = () => {
                 <CardHeader>
                   <CardTitle className="flex items-center gap-3 text-xl text-navy">
                     <Building2 className="w-6 h-6 text-primary" />
-                    Наши преимущества
+                    Our Advantages
                   </CardTitle>
                 </CardHeader>
                 <CardContent className="space-y-4">
                   {[
-                    "Полное соответствие индонезийскому законодательству",
-                    "Прозрачные и честные сделки",
-                    "Профессиональное сопровождение на всех этапах",
-                    "Проверенная база качественной недвижимости",
-                    "Индивидуальный подход к каждому клиенту"
+                    "Full compliance with Indonesian law",
+                    "Transparent and honest transactions",
+                    "Professional support at all stages",
+                    "Verified database of quality properties",
+                    "Individual approach to each client"
                   ].map((advantage, index) => (
                     <div key={index} className="flex items-center gap-3">
                       <div className="w-2 h-2 bg-gradient-to-r from-primary to-emerald-600 rounded-full"></div>
@@ -140,24 +129,24 @@ const ContactSection = () => {
               <div className="relative z-10">
                 <Mail className="w-16 h-16 mx-auto mb-6 text-accent" />
                 <h3 className="text-3xl md:text-4xl font-bold mb-4">
-                  Готовы начать поиск недвижимости?
+                  Ready to Start Property Search?
                 </h3>
                 <p className="text-xl mb-8 text-gray-300 max-w-2xl mx-auto">
-                  Свяжитесь с нами сегодня для бесплатной консультации и начните путь к недвижимости вашей мечты на Бали
+                  Contact us today for a free consultation and start your journey to your dream property in Bali
                 </p>
                 <div className="flex flex-col sm:flex-row gap-4 justify-center">
                   <Button 
                     size="lg" 
                     className="text-lg px-8 py-4 bg-gradient-to-r from-primary to-emerald-600 hover:from-emerald-600 hover:to-primary shadow-lg hover:shadow-xl transform hover:scale-105 transition-all duration-300"
                   >
-                    Получить консультацию
+                    Get Consultation
                   </Button>
                   <Button 
                     variant="outline" 
                     size="lg" 
                     className="text-lg px-8 py-4 border-2 border-white text-white hover:bg-white hover:text-navy transition-all duration-300 shadow-lg hover:shadow-xl"
                   >
-                    Посмотреть каталог
+                    View Catalog
                   </Button>
                 </div>
               </div>

@@ -28,27 +28,27 @@ const Header = () => {
               href="#services" 
               className="text-gray-700 hover:text-primary transition-colors duration-300 font-medium relative group"
             >
-              Услуги
+              Services
               <span className="absolute bottom-0 left-0 w-0 h-0.5 bg-gradient-to-r from-primary to-emerald-600 group-hover:w-full transition-all duration-300"></span>
             </a>
             <a 
               href="#about" 
               className="text-gray-700 hover:text-primary transition-colors duration-300 font-medium relative group"
             >
-              О компании
+              About
               <span className="absolute bottom-0 left-0 w-0 h-0.5 bg-gradient-to-r from-primary to-emerald-600 group-hover:w-full transition-all duration-300"></span>
             </a>
             <a 
               href="#contact" 
               className="text-gray-700 hover:text-primary transition-colors duration-300 font-medium relative group"
             >
-              Контакты
+              Contact
               <span className="absolute bottom-0 left-0 w-0 h-0.5 bg-gradient-to-r from-primary to-emerald-600 group-hover:w-full transition-all duration-300"></span>
             </a>
             <Button 
               className="bg-gradient-to-r from-primary to-emerald-600 hover:from-emerald-600 hover:to-primary shadow-lg hover:shadow-xl transform hover:scale-105 transition-all duration-300"
             >
-              Найти недвижимость
+              Find Property
             </Button>
           </nav>
 
@@ -74,27 +74,27 @@ const Header = () => {
                 className="text-gray-700 hover:text-primary transition-colors duration-300 py-3 px-4 rounded-lg hover:bg-gray-50 font-medium"
                 onClick={() => setIsMenuOpen(false)}
               >
-                Услуги
+                Services
               </a>
               <a 
                 href="#about" 
                 className="text-gray-700 hover:text-primary transition-colors duration-300 py-3 px-4 rounded-lg hover:bg-gray-50 font-medium"
                 onClick={() => setIsMenuOpen(false)}
               >
-                О компании
+                About
               </a>
               <a 
                 href="#contact" 
                 className="text-gray-700 hover:text-primary transition-colors duration-300 py-3 px-4 rounded-lg hover:bg-gray-50 font-medium"
                 onClick={() => setIsMenuOpen(false)}
               >
-                Контакты
+                Contact
               </a>
               <Button 
                 className="mt-4 bg-gradient-to-r from-primary to-emerald-600 hover:from-emerald-600 hover:to-primary shadow-lg"
                 onClick={() => setIsMenuOpen(false)}
               >
-                Найти недвижимость
+                Find Property
               </Button>
             </nav>
           </div>

@@ -18,7 +18,7 @@ const HeroSection = () => {
           <div className="mb-8 animate-fade-in">
             <Badge className="bg-primary/10 text-primary border-primary/20 px-6 py-2 text-sm font-medium">
               <Shield className="w-4 h-4 mr-2" />
-              Лицензированная компания
+              Licensed & Regulated Company
             </Badge>
           </div>
 
@@ -34,9 +34,9 @@ const HeroSection = () => {
 
           {/* Subtitle */}
           <p className="text-xl md:text-2xl text-gray-600 mb-8 leading-relaxed max-w-3xl mx-auto animate-fade-in" style={{ animationDelay: '0.4s' }}>
-            Ваш надежный партнер в мире недвижимости на Бали
+            Your trusted partner in Bali real estate
             <span className="block text-lg md:text-xl mt-2 text-gray-500">
-              Помогаем найти, арендовать и купить недвижимость вашей мечты
+              We help you find, rent and buy your dream property
             </span>
           </p>
 
@@ -44,15 +44,15 @@ const HeroSection = () => {
           <div className="flex flex-wrap justify-center gap-4 mb-12 animate-fade-in" style={{ animationDelay: '0.6s' }}>
             <div className="flex items-center gap-2 bg-white/80 backdrop-blur-sm px-6 py-3 rounded-full shadow-md border border-white/50">
               <Star className="w-5 h-5 text-accent fill-current" />
-              <span className="text-gray-700 font-medium">Премиум объекты</span>
+              <span className="text-gray-700 font-medium">Premium Properties</span>
             </div>
             <div className="flex items-center gap-2 bg-white/80 backdrop-blur-sm px-6 py-3 rounded-full shadow-md border border-white/50">
               <MapPin className="w-5 h-5 text-primary" />
-              <span className="text-gray-700 font-medium">Лучшие локации</span>
+              <span className="text-gray-700 font-medium">Best Locations</span>
             </div>
             <div className="flex items-center gap-2 bg-white/80 backdrop-blur-sm px-6 py-3 rounded-full shadow-md border border-white/50">
               <Users className="w-5 h-5 text-emerald-600" />
-              <span className="text-gray-700 font-medium">Персональный подход</span>
+              <span className="text-gray-700 font-medium">Personal Approach</span>
             </div>
           </div>
 
@@ -62,14 +62,14 @@ const HeroSection = () => {
               size="lg" 
               className="text-lg px-8 py-4 bg-gradient-to-r from-primary to-emerald-600 hover:from-emerald-600 hover:to-primary transition-all duration-300 shadow-lg hover:shadow-xl transform hover:scale-105"
             >
-              Найти недвижимость
+              Find Property
             </Button>
             <Button 
               variant="outline" 
               size="lg" 
               className="text-lg px-8 py-4 border-2 border-primary text-primary hover:bg-primary hover:text-white transition-all duration-300 shadow-lg hover:shadow-xl"
             >
-              Получить консультацию
+              Get Consultation
             </Button>
           </div>
 
@@ -77,19 +77,19 @@ const HeroSection = () => {
           <div className="mt-16 grid grid-cols-2 md:grid-cols-4 gap-8 animate-fade-in" style={{ animationDelay: '1s' }}>
             <div className="text-center">
               <div className="text-3xl md:text-4xl font-bold text-primary mb-2">500+</div>
-              <div className="text-gray-600">Объектов недвижимости</div>
+              <div className="text-gray-600">Real Estate Properties</div>
             </div>
             <div className="text-center">
               <div className="text-3xl md:text-4xl font-bold text-primary mb-2">98%</div>
-              <div className="text-gray-600">Довольных клиентов</div>
+              <div className="text-gray-600">Satisfied Clients</div>
             </div>
             <div className="text-center">
               <div className="text-3xl md:text-4xl font-bold text-primary mb-2">5+</div>
-              <div className="text-gray-600">Лет на рынке</div>
+              <div className="text-gray-600">Years in Business</div>
             </div>
             <div className="text-center">
               <div className="text-3xl md:text-4xl font-bold text-primary mb-2">24/7</div>
-              <div className="text-gray-600">Поддержка клиентов</div>
+              <div className="text-gray-600">Customer Support</div>
             </div>
           </div>
         </div>

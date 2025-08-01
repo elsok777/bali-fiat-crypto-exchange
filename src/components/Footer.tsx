@@ -25,12 +25,12 @@ const Footer = () => {
               </div>
             </div>
             <p className="text-gray-300 mb-6 leading-relaxed max-w-md">
-              Ваш надежный партнер в мире недвижимости на Бали. Помогаем найти, арендовать и купить 
-              недвижимость вашей мечты с полным профессиональным сопровождением.
+              Your trusted partner in Bali real estate. We help you find, rent and buy 
+              your dream property with complete professional support.
             </p>
             <div className="flex items-center gap-3 text-sm mb-6">
               <Shield className="w-5 h-5 text-accent flex-shrink-0" />
-              <span className="text-gray-400">Лицензия: AHU-0074782.AH.01.02.Tahun 2024</span>
+              <span className="text-gray-400">License: AHU-0074782.AH.01.02.Tahun 2024</span>
             </div>
             
             {/* Social Links */}
@@ -58,39 +58,39 @@ const Footer = () => {
 
           {/* Services */}
           <div>
-            <h4 className="text-xl font-semibold mb-6 text-white">Наши услуги</h4>
+            <h4 className="text-xl font-semibold mb-6 text-white">Our Services</h4>
             <ul className="space-y-4 text-gray-300">
               <li className="flex items-center gap-3 hover:text-primary transition-colors duration-300 cursor-pointer">
                 <Building className="w-4 h-4 text-primary flex-shrink-0" />
-                Аренда недвижимости
+                Property Rental
               </li>
               <li className="flex items-center gap-3 hover:text-primary transition-colors duration-300 cursor-pointer">
                 <Key className="w-4 h-4 text-primary flex-shrink-0" />
-                Покупка недвижимости
+                Property Purchase
               </li>
               <li className="flex items-center gap-3 hover:text-primary transition-colors duration-300 cursor-pointer">
                 <Users className="w-4 h-4 text-primary flex-shrink-0" />
-                Консультации
+                Consultations
               </li>
               <li className="flex items-center gap-3 hover:text-primary transition-colors duration-300 cursor-pointer">
                 <Shield className="w-4 h-4 text-primary flex-shrink-0" />
-                Юридическое сопровождение
+                Legal Support
               </li>
               <li className="flex items-center gap-3 hover:text-primary transition-colors duration-300 cursor-pointer">
                 <Heart className="w-4 h-4 text-primary flex-shrink-0" />
-                Персональный подбор
+                Personal Selection
               </li>
             </ul>
           </div>
 
           {/* Contact Info */}
           <div>
-            <h4 className="text-xl font-semibold mb-6 text-white">Контакты</h4>
+            <h4 className="text-xl font-semibold mb-6 text-white">Contact</h4>
             <div className="space-y-4 text-gray-300">
               <div className="flex items-start gap-3">
                 <MapPin className="w-5 h-5 mt-0.5 text-accent flex-shrink-0" />
                 <div className="text-sm">
-                  <p className="font-medium text-white mb-1">Наш офис:</p>
+                  <p className="font-medium text-white mb-1">Our Office:</p>
                   <span>
                     NAKULA PLAZA B8, LEGIAN<br />
                     Badung, Bali 80361<br />
@@ -99,17 +99,10 @@ const Footer = () => {
                 </div>
               </div>
               <div className="flex items-center gap-3">
-                <Phone className="w-5 h-5 text-accent flex-shrink-0" />
-                <div className="text-sm">
-                  <p className="font-medium text-white mb-1">Телефон:</p>
-                  <span>087855597788</span>
-                </div>
-              </div>
-              <div className="flex items-center gap-3">
                 <Mail className="w-5 h-5 text-accent flex-shrink-0" />
                 <div className="text-sm">
-                  <p className="font-medium text-white mb-1">Режим работы:</p>
-                  <span>Пн-Пт: 9:00-18:00<br />Сб: 9:00-16:00</span>
+                  <p className="font-medium text-white mb-1">Business Hours:</p>
+                  <span>Mon-Fri: 9:00 AM - 6:00 PM<br />Sat: 9:00 AM - 4:00 PM</span>
                 </div>
               </div>
             </div>
@@ -120,11 +113,11 @@ const Footer = () => {
         <div className="border-t border-white/10 mt-12 pt-8">
           <div className="flex flex-col md:flex-row justify-between items-center gap-4">
             <p className="text-gray-400 text-sm text-center md:text-left">
-              &copy; 2024 Bali Kapital Grup Properti. Все права защищены. Лицензированные услуги по недвижимости на Бали.
+              &copy; 2024 Bali Kapital Grup Properti. All rights reserved. Licensed real estate services in Bali.
             </p>
             <div className="flex gap-6 text-sm text-gray-400">
-              <a href="#" className="hover:text-primary transition-colors duration-300">Политика конфиденциальности</a>
-              <a href="#" className="hover:text-primary transition-colors duration-300">Условия использования</a>
+              <a href="#" className="hover:text-primary transition-colors duration-300">Privacy Policy</a>
+              <a href="#" className="hover:text-primary transition-colors duration-300">Terms of Service</a>
             </div>
           </div>
         </div>
