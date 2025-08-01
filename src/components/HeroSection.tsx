@@ -2,7 +2,7 @@ import { Button } from "@/components/ui/button";
 import { Badge } from "@/components/ui/badge";
 import { Shield, MapPin, Star, Users } from "lucide-react";
 
-const HeroSection = () => {
+const HeroSection = ({ onContactClick }: { onContactClick: () => void }) => {
   return (
     <section className="relative min-h-screen flex items-center justify-center overflow-hidden bg-gradient-to-br from-emerald-50 via-white to-amber-50">
       {/* Background Pattern */}
@@ -59,12 +59,14 @@ const HeroSection = () => {
           {/* CTA Buttons */}
           <div className="flex flex-col sm:flex-row gap-4 justify-center animate-fade-in" style={{ animationDelay: '0.8s' }}>
             <Button 
+              onClick={onContactClick}
               size="lg" 
               className="text-lg px-8 py-4 bg-gradient-to-r from-primary to-emerald-600 hover:from-emerald-600 hover:to-primary transition-all duration-300 shadow-lg hover:shadow-xl transform hover:scale-105"
             >
               Find Property
             </Button>
             <Button 
+              onClick={onContactClick}
               variant="outline" 
               size="lg" 
               className="text-lg px-8 py-4 border-2 border-primary text-primary hover:bg-primary hover:text-white transition-all duration-300 shadow-lg hover:shadow-xl"

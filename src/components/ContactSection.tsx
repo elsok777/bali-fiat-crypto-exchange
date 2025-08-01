@@ -2,7 +2,7 @@ import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
 import { MapPin, Phone, Clock, Shield, Building2, Mail, MessageCircle } from "lucide-react";
 
-const ContactSection = () => {
+const ContactSection = ({ onContactClick }: { onContactClick: () => void }) => {
   return (
     <section className="py-20 bg-gradient-to-br from-white to-gray-50">
       <div className="container mx-auto px-6">

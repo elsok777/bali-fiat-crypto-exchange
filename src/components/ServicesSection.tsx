@@ -2,7 +2,7 @@ import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/com
 import { Button } from "@/components/ui/button";
 import { Home, Key, Heart, Search, Users, Shield, Clock, Award } from "lucide-react";
 
-const ServicesSection = () => {
+const ServicesSection = ({ onContactClick }: { onContactClick: () => void }) => {
   const services = [
     {
       icon: Search,
@@ -85,7 +85,7 @@ const ServicesSection = () => {
                   ))}
                 </ul>
                 <Button 
-                  variant="outline" 
+                  onClick={onContactClick}
                   className="w-full mt-6 border-primary text-primary hover:bg-primary hover:text-white transition-all duration-300"
                 >
                   Learn More

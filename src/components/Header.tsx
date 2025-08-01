@@ -2,7 +2,7 @@ import { Button } from "@/components/ui/button";
 import { Shield, Menu, X, Home } from "lucide-react";
 import { useState } from "react";
 
-const Header = () => {
+const Header = ({ onContactClick }: { onContactClick: () => void }) => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
 
   return (
@@ -46,6 +46,7 @@ const Header = () => {
               <span className="absolute bottom-0 left-0 w-0 h-0.5 bg-gradient-to-r from-primary to-emerald-600 group-hover:w-full transition-all duration-300"></span>
             </a>
             <Button 
+              onClick={onContactClick}
               className="bg-gradient-to-r from-primary to-emerald-600 hover:from-emerald-600 hover:to-primary shadow-lg hover:shadow-xl transform hover:scale-105 transition-all duration-300"
             >
               Find Property
@@ -92,7 +93,10 @@ const Header = () => {
               </a>
               <Button 
                 className="mt-4 bg-gradient-to-r from-primary to-emerald-600 hover:from-emerald-600 hover:to-primary shadow-lg"
-                onClick={() => setIsMenuOpen(false)}
+                onClick={() => {
+                  setIsMenuOpen(false);
+                  onContactClick();
+                }}
               >
                 Find Property
               </Button>
