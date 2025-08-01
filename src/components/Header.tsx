@@ -23,16 +23,16 @@ const Header = () => {
           {/* Desktop Navigation */}
           <nav className="hidden md:flex items-center gap-8">
             <a href="#services" className="text-foreground hover:text-primary transition-colors">
-              Services
+              Услуги
             </a>
             <a href="#about" className="text-foreground hover:text-primary transition-colors">
-              About
+              О компании
             </a>
             <a href="#contact" className="text-foreground hover:text-primary transition-colors">
-              Contact
+              Контакты
             </a>
             <Button variant="default" size="sm">
-              Start Exchange
+              Найти недвижимость
             </Button>
           </nav>
 
@@ -58,24 +58,24 @@ const Header = () => {
                 className="text-foreground hover:text-primary transition-colors py-2"
                 onClick={() => setIsMenuOpen(false)}
               >
-                Services
+                Услуги
               </a>
               <a 
                 href="#about" 
                 className="text-foreground hover:text-primary transition-colors py-2"
                 onClick={() => setIsMenuOpen(false)}
               >
-                About
+                О компании
               </a>
               <a 
                 href="#contact" 
                 className="text-foreground hover:text-primary transition-colors py-2"
                 onClick={() => setIsMenuOpen(false)}
               >
-                Contact
+                Контакты
               </a>
               <Button variant="default" size="sm" className="mt-2">
-                Start Exchange
+                Найти недвижимость
               </Button>
             </nav>
           </div>

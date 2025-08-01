@@ -2,7 +2,7 @@
 @tailwind components;
 @tailwind utilities;
 
-/* Professional Crypto Exchange Design System */
+/* Professional Real Estate Design System */
 
 @layer base {
   :root {
@@ -35,7 +35,7 @@
     --input: 213 15% 90%;
     --ring: 213 85% 45%;
 
-    /* Custom gradients for crypto exchange */
+    /* Custom gradients for real estate */
     --gradient-primary: linear-gradient(135deg, hsl(var(--primary)), hsl(var(--primary-glow)));
     --gradient-hero: linear-gradient(135deg, hsl(var(--primary)) 0%, hsl(var(--primary-glow)) 100%);
     --gradient-card: linear-gradient(145deg, hsl(var(--card)) 0%, hsl(var(--muted)) 100%);
