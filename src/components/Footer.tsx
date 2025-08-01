@@ -1,4 +1,4 @@
-import { Shield, MapPin, Phone, Mail } from "lucide-react";
+import { Shield, MapPin, Phone, Mail, Building, Key, Users } from "lucide-react";
 
 const Footer = () => {
   return (
@@ -17,29 +17,41 @@ const Footer = () => {
               </div>
             </div>
             <p className="text-background/80 mb-4 leading-relaxed">
-              Licensed cryptocurrency exchange services in Bali, providing secure and professional 
-              fiat to crypto conversion solutions with competitive rates and reliable support.
+              Профессиональные услуги в сфере недвижимости на Бали. Помогаем в подборе, 
+              аренде и покупке недвижимости с полным юридическим сопровождением.
             </p>
             <div className="flex items-center gap-2 text-sm">
               <Shield className="w-4 h-4 text-accent" />
-              <span>License: AHU-0074782.AH.01.02.Tahun 2024</span>
+              <span>Лицензия: AHU-0074782.AH.01.02.Tahun 2024</span>
             </div>
           </div>
 
           {/* Services */}
           <div>
-            <h4 className="font-semibold mb-4">Services</h4>
+            <h4 className="font-semibold mb-4">Услуги</h4>
             <ul className="space-y-2 text-sm text-background/80">
-              <li>Fiat to Crypto Exchange</li>
-              <li>SWIFT Payments</li>
-              <li>Pay by Link</li>
-              <li>24/7 Support</li>
+              <li className="flex items-center gap-2">
+                <Building className="w-3 h-3" />
+                Аренда недвижимости
+              </li>
+              <li className="flex items-center gap-2">
+                <Key className="w-3 h-3" />
+                Покупка недвижимости
+              </li>
+              <li className="flex items-center gap-2">
+                <Users className="w-3 h-3" />
+                Консультации
+              </li>
+              <li className="flex items-center gap-2">
+                <Shield className="w-3 h-3" />
+                Юридическое сопровождение
+              </li>
             </ul>
           </div>
 
           {/* Contact Info */}
           <div>
-            <h4 className="font-semibold mb-4">Contact</h4>
+            <h4 className="font-semibold mb-4">Контакты</h4>
             <div className="space-y-3 text-sm text-background/80">
               <div className="flex items-start gap-2">
                 <MapPin className="w-4 h-4 mt-0.5 text-accent flex-shrink-0" />
@@ -61,7 +73,7 @@ const Footer = () => {
         </div>
 
         <div className="border-t border-background/20 mt-8 pt-8 text-center text-sm text-background/60">
-          <p>&copy; 2024 Bali Kapital Grup Properti. All rights reserved. Licensed cryptocurrency exchange services.</p>
+          <p>&copy; 2024 Bali Kapital Grup Properti. Все права защищены. Лицензированные услуги по недвижимости.</p>
         </div>
       </div>
     </footer>

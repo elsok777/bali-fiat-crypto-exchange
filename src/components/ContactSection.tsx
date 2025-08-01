@@ -10,24 +10,24 @@ const ContactSection = () => {
           {/* Section Header */}
           <div className="text-center mb-16">
             <h2 className="text-4xl md:text-5xl font-bold text-foreground mb-6">
-              Contact & License Information
+              Свяжитесь с нами
             </h2>
             <p className="text-xl text-muted-foreground">
-              Fully licensed and regulated cryptocurrency exchange services in Bali
+              Профессиональные услуги в сфере недвижимости на Бали
             </p>
           </div>
 
           <div className="grid lg:grid-cols-2 gap-12">
             {/* Contact Information */}
             <div>
-              <h3 className="text-2xl font-bold mb-8">Get in Touch</h3>
+              <h3 className="text-2xl font-bold mb-8">Контактная информация</h3>
               <div className="space-y-6">
                 <div className="flex items-start gap-4">
                   <div className="w-12 h-12 bg-gradient-primary rounded-lg flex items-center justify-center flex-shrink-0">
                     <MapPin className="w-6 h-6 text-primary-foreground" />
                   </div>
                   <div>
-                    <h4 className="font-semibold mb-1">Office Address</h4>
+                    <h4 className="font-semibold mb-1">Адрес офиса</h4>
                     <p className="text-muted-foreground leading-relaxed">
                       KOMPLEK, PERTOKOAN NAKULA PLAZA<br />
                       JL. NAKULA NO.B8, LEGIAN<br />
@@ -42,7 +42,7 @@ const ContactSection = () => {
                     <Phone className="w-6 h-6 text-primary-foreground" />
                   </div>
                   <div>
-                    <h4 className="font-semibold mb-1">Phone Number</h4>
+                    <h4 className="font-semibold mb-1">Телефон</h4>
                     <p className="text-muted-foreground">087855597788</p>
                   </div>
                 </div>
@@ -52,11 +52,11 @@ const ContactSection = () => {
                     <Mail className="w-6 h-6 text-primary-foreground" />
                   </div>
                   <div>
-                    <h4 className="font-semibold mb-1">Business Hours</h4>
+                    <h4 className="font-semibold mb-1">Время работы</h4>
                     <p className="text-muted-foreground">
-                      Monday - Friday: 9:00 AM - 6:00 PM<br />
-                      Saturday: 9:00 AM - 4:00 PM<br />
-                      Sunday: Closed
+                      Понедельник - Пятница: 9:00 - 18:00<br />
+                      Суббота: 9:00 - 16:00<br />
+                      Воскресенье: Выходной
                     </p>
                   </div>
                 </div>
@@ -65,28 +65,28 @@ const ContactSection = () => {
 
             {/* License Information */}
             <div>
-              <h3 className="text-2xl font-bold mb-8">License & Compliance</h3>
+              <h3 className="text-2xl font-bold mb-8">О компании</h3>
               
               <Card className="shadow-card bg-gradient-card border-border/50 mb-6">
                 <CardHeader>
                   <CardTitle className="flex items-center gap-3">
                     <Shield className="w-6 h-6 text-primary" />
-                    Official Business License
+                    Официальная лицензия
                   </CardTitle>
                 </CardHeader>
                 <CardContent className="space-y-4">
                   <div>
-                    <p className="text-sm text-muted-foreground mb-1">License Number</p>
+                    <p className="text-sm text-muted-foreground mb-1">Номер лицензии</p>
                     <p className="font-mono text-lg font-semibold text-primary">
                       AHU-0074782.AH.01.02.Tahun 2024
                     </p>
                   </div>
                   <div>
-                    <p className="text-sm text-muted-foreground mb-1">Registered Company Name</p>
+                    <p className="text-sm text-muted-foreground mb-1">Зарегистрированное название компании</p>
                     <p className="font-semibold">BALI KAPITAL GRUP PROPERTI</p>
                   </div>
                   <div>
-                    <p className="text-sm text-muted-foreground mb-1">Registration Year</p>
+                    <p className="text-sm text-muted-foreground mb-1">Год регистрации</p>
                     <p className="font-semibold">2024</p>
                   </div>
                 </CardContent>
@@ -96,26 +96,26 @@ const ContactSection = () => {
                 <CardHeader>
                   <CardTitle className="flex items-center gap-3">
                     <Building2 className="w-6 h-6 text-primary" />
-                    Regulatory Compliance
+                    Наши преимущества
                   </CardTitle>
                 </CardHeader>
                 <CardContent>
                   <ul className="space-y-3">
                     <li className="flex items-center gap-2">
                       <div className="w-2 h-2 bg-accent rounded-full"></div>
-                      <span className="text-sm">Fully compliant with Indonesian regulations</span>
+                      <span className="text-sm">Соответствие индонезийскому законодательству</span>
                     </li>
                     <li className="flex items-center gap-2">
                       <div className="w-2 h-2 bg-accent rounded-full"></div>
-                      <span className="text-sm">Regular compliance audits</span>
+                      <span className="text-sm">Прозрачные сделки</span>
                     </li>
                     <li className="flex items-center gap-2">
                       <div className="w-2 h-2 bg-accent rounded-full"></div>
-                      <span className="text-sm">Anti-money laundering protocols</span>
+                      <span className="text-sm">Профессиональное сопровождение</span>
                     </li>
                     <li className="flex items-center gap-2">
                       <div className="w-2 h-2 bg-accent rounded-full"></div>
-                      <span className="text-sm">Know Your Customer (KYC) procedures</span>
+                      <span className="text-sm">Проверенная база недвижимости</span>
                     </li>
                   </ul>
                 </CardContent>
@@ -126,20 +126,20 @@ const ContactSection = () => {
           {/* CTA Section */}
           <div className="text-center mt-16">
             <div className="bg-gradient-primary rounded-2xl p-8 md:p-12 text-primary-foreground">
-              <h3 className="text-3xl font-bold mb-4">Ready to Start Trading?</h3>
+              <h3 className="text-3xl font-bold mb-4">Готовы найти идеальную недвижимость?</h3>
               <p className="text-xl mb-8 text-primary-foreground/90">
-                Contact us today to begin your cryptocurrency exchange journey
+                Свяжитесь с нами сегодня и начните путь к своему идеальному дому на Бали
               </p>
               <div className="flex flex-col sm:flex-row gap-4 justify-center">
                 <Button variant="accent" size="lg" className="text-lg px-8">
-                  Get Started Now
+                  Найти недвижимость
                 </Button>
                 <Button 
                   variant="outline" 
                   size="lg" 
                   className="text-lg px-8 bg-primary-foreground/10 border-primary-foreground/30 text-primary-foreground hover:bg-primary-foreground/20"
                 >
-                  Schedule Consultation
+                  Записаться на консультацию
                 </Button>
               </div>
             </div>
