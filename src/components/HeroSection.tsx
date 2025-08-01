@@ -4,7 +4,7 @@ import { Shield, MapPin, Star, Users } from "lucide-react";
 
 const HeroSection = ({ onContactClick }: { onContactClick: () => void }) => {
   return (
-    <section className="relative min-h-screen flex items-center justify-center overflow-hidden bg-gradient-to-br from-emerald-50 via-white to-amber-50 bg-pattern">
+    <section className="relative min-h-screen flex items-center justify-center overflow-hidden bg-gradient-to-br from-emerald-50 via-white to-amber-50 bg-pattern pt-20">{/* Added pt-20 to account for fixed header */}
       {/* Enhanced Background Pattern */}
       <div className="absolute inset-0">
         <div className="absolute top-20 left-20 w-96 h-96 bg-gradient-to-r from-primary to-primary-glow rounded-full mix-blend-multiply filter blur-3xl animate-float opacity-20"></div>

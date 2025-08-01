@@ -6,7 +6,7 @@ const Header = ({ onContactClick }: { onContactClick: () => void }) => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
 
   return (
-    <header className="fixed top-0 left-0 right-0 z-50 bg-white/90 backdrop-blur-md border-b border-gray-200/50 shadow-sm">
+    <header className="fixed top-0 left-0 right-0 z-50 glass bg-white/90 backdrop-blur-md border-b border-gray-200/50 shadow-lg">
       <div className="container mx-auto px-6">
         <div className="flex items-center justify-between h-20">
           {/* Logo */}
